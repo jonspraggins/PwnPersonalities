@@ -36,15 +36,11 @@ SSH into your pwnagotchi and run the command `sudo reboot now`
 I would advise against looking inside the `voice.py` file, I've tried to add lots of things for each character to say so it never gets boring.
 
 ## List of Personalities
+| Name                                                                           | Screenshot                                                                                                      | Description                                                                                                 |
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [Harold](https://github.com/TheJustinCrow/PwnPersonalities/tree/main/Harold)   | <img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Harold/HaroldMANU.png" width="250"/> | (⌐■_■) Wise, laid-back, and a hint of sarcasm. Imagine a seasoned friend with a virtual twinkle in his eye. |
+| [Default](https://github.com/TheJustinCrow/PwnPersonalities/tree/main/Default) | <img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Default/Default.png" width="250"/>   | This is the default faceset and voice for your Pwnagotchi.                                                  |
 
-[Harold:](https://github.com/TheJustinCrow/PwnPersonalities/tree/main/Harold)
-
-## Screenshots
-<img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Harold/HaroldSigh.png" width="400"/>
-<img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Harold/HaroldMANU.png" width="400"/>
-<img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Harold/HaroldWait.png" width="400"/>
-
-## Contributing
-
+## Contributions
 Contributions are always welcome! Feel free to contribute additional personalities (or suggest changes to current ones) by submitting pull requests. 
 
