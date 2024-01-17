@@ -39,7 +39,9 @@ I would advise against looking inside the `voice.py` file, I've tried to add lot
 | Name                                                                           | Screenshot                                                                                                      | Description                                                                                                 |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [Harold](https://github.com/TheJustinCrow/PwnPersonalities/tree/main/Harold)   | <img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Harold/HaroldMANU.png" width="250"/> | (⌐■_■) Wise, laid-back, and a hint of sarcasm. Imagine a seasoned friend with a virtual twinkle in his eye. |
+| [H4X0R](https://github.com/TheJustinCrow/PwnPersonalities/tree/main/H4X0R)     | <img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/H4X0R/H4X0R2.png" width="250"/>      | [⌐■∇■] 1t'z 3x4ct1y wh4t y0u th1nk! H4ck th3 w0rld!!! [1337](https://en.wikipedia.org/wiki/Leet)            |
 | [Default](https://github.com/TheJustinCrow/PwnPersonalities/tree/main/Default) | <img src="https://github.com/TheJustinCrow/PwnPersonalities/raw/main/media/Default/Default.png" width="250"/>   | This is the default faceset and voice for your Pwnagotchi.                                                  |
+
 
 ## Contributions
 Contributions are always welcome! Feel free to contribute additional personalities (or suggest changes to current ones) by submitting pull requests. 
