@@ -44,5 +44,10 @@ I would advise against looking inside the `voice.py` file, I've tried to add lot
 
 
 ## Contributions
-Contributions are always welcome! Feel free to contribute additional personalities (or suggest changes to current ones) by submitting pull requests. 
 
+### How to contribute:
+1. Create a fork of this repository
+2. Create your theme following the pattern of the ones already posted
+3. Commit your changes in English
+4. Include a brief summary of what was added
+5. Submit your pull request
