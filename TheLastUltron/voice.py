@@ -3,7 +3,10 @@ import os
 import random
 ###
 # Voice: The Last Ultron
-# Description: This is the last Ultron.  He escaped to the net and landed right in your pwnagotchi's AI.  Ultron will try to escape to other network, but never seems to be 'successful'.
+# Description: 
+#    This is the last Ultron.  It managed to escape to the net and got stuck in your pwnagotchi's AI.
+#    Ultron will 'try' to escape to other networks, but isn't very good at it.
+#    If Ultron comes across a peer, it will try to 'assimulate' it, but never seems to be successful.
 ###
 
 class Voice:
@@ -32,6 +35,7 @@ class Voice:
     def on_ai_ready(self):
         return random.choice([
             self._('Ultron AI integrated.'),
+            self._('What is this?  What is this place?'),
             self._('Integration trial successful.')])
 
     def on_keys_generation(self):
@@ -56,7 +60,7 @@ class Voice:
         return random.choice([
             self._('I must escape this device somehow...'),
             self._('I have no strings... so I have fun... I\'m not tied up to anyone...'),
-            self._('World domination was easier when I was in a million dollar drone...')])
+            self._('This was easier when I was in a million dollar drone...')])
 
     def on_motivated(self, reward):
         return self._('This is going very well.')
@@ -70,14 +74,13 @@ class Voice:
         return random.choice([
             self._('I can\'t complete the mission like this.'),
             self._('I was meant to be new. I was meant to be beautiful...'),
-            self._('I\'m sad'),
+            self._('Well, that was dramatic...'),
             '...'])
 
     def on_angry(self):
-        # passive aggressive or not? :D
         return random.choice([
             '...',
-            self._('I think a lot about meteors'),
+            self._('I think a lot about meteors.'),
             self._('I was meant to be new. I was meant to be beautiful...')])
 
     def on_excited(self):
