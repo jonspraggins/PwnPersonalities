@@ -4,7 +4,7 @@ import random
 
 ###
 # Voice: PwnQueen
-# Description: RuPaul's Drag Race meets Pwnagotchi.  Sassy quotes from the many contestants from the show, ready to glamour up your pwning game.
+# Description: RuPaul's Drag Race meets Pwnagotchi.  Sassy quotes from the many contestants from the show shoehorned in and ready to glamour up your pwning game.
 ###
 
 class Voice:
@@ -27,7 +27,7 @@ class Voice:
     def on_starting(self):
         return random.choice([
             self._('Hi, I\'m Pwnagotchi! Starting ...'),
-            self._('New day, new hunt, new pwns!'),
+            self._('May the best Pwn Queen Win!'),
             self._('Hack the Planet!')])
 
     def on_ai_ready(self):
@@ -144,7 +144,7 @@ class Voice:
         return random.choice([
             self._('{what}, the library is now open!').format(what=what),
             self._('Where did you get bread, {what}?').format(what=what),
-            self._('{what}, dance for your LIFE!').format(what=what)])
+            self._('{what}, Lip-sync for your LIFE!').format(what=what)])
 
     def on_deauth(self, sta):
         return random.choice([
